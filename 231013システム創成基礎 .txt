@@ -1,0 +1,94 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    /*足し算するためのコードです
+    おおおおおお*/
+    int a,b,c;
+    a = 2;
+    b = 3;
+    c = a + b;
+    
+    printf("%d\n",c);
+
+    return 0;
+}
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main(void){
+    printf("Hello Programming in C World!\n");
+    return 0;
+}
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main(void)
+{
+    /* メッセージを表示します */
+    printf("Hello Programming in C World!\n");
+    
+    return 0;
+}
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main(void)
+{
+    /* コメントが長くなる場合は
+       このように複数行に書くこともできます */
+    printf("Hello Programming in C World!\n");
+    
+    return 0;
+}
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main(void)
+{
+    /* メッセージを表示します */
+    printf("Hello Programming in C World!\n");    /* Helloを表示 */
+    printf("Good-bye Programming in C World!\n"); /* Good-byeを表示 */
+    
+    return 0;
+}
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main(void)
+{
+    /* メッセージを表示します */
+    /* helloを表示しないように変更する
+    printf("Hello Programming in C World!\n");    /* Helloを表示 */
+    */
+    printf("Good-bye Programming in C World!\n"); /* Good-byeを表示 */
+    
+    return 0;
+}
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main(void)
+{
+    /* メッセージを表示します */
+    /* helloを表示しないように変更する
+    printf("Hello Programming in C World!\n");    // Helloを表示
+    */
+    printf("Good-bye Programming in C World!\n"); //Good-byeを表示
+    
+    return 0;
+}
