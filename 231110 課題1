@@ -5,12 +5,15 @@ int main(void)
 	int max = 10000;
 	for (int i = 1; i <= 10000; i++)
 	{
-		if (i % 221 == 0)
+		if (i % 13 == 0)
 		{
-			printf("%d\n", i);
+			printf("13で割る数字%8d\n", i);
+		}
+		else if (i % 17 == 0)
+			{
+			printf("17で割る数字%8d\n", i);
 		}
 	}
 
 	return 0;
 }
-
